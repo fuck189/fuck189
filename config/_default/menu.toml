@@ -7,18 +7,37 @@
 #icon = "home"
 #newtab = true
 
+
+[[main]]
+weight = 2
+identifier = "files"
+name = "法律法规"
+url = "/categories/files/"
+[main.params]
+icon = "book"
+
+[[main]]
+weight = 3
+identifier = "sb189"
+name = "SB 189"
+url = "/sb189/"
+
+[main.params]
+icon = "law-svgrepo-com"
+
+[[main]]
+weight = 3
+identifier = "useless-gov"
+name = "管局渎职"
+url = "/useless-gov/"
+
+[main.params]
+icon = "handcuffs-svgrepo-com"
+
 [[social]]
-identifier = "github"
-name = "GitHub"
-url = "https://github.com/CaiJimmy/hugo-theme-stack"
+identifier = "rss"
+name = "RSS"
+url = "/index.xml"
 
 [social.params]
-icon = "brand-github"
-
-[[social]]
-identifier = "twitter"
-name = "Twitter"
-url = "https://twitter.com"
-
-[social.params]
-icon = "brand-twitter"
+icon = "rss"
